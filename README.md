@@ -2,6 +2,10 @@
 
 A CoreDNS plugin that allows you to resolve DNS queries over HTTP(S).
 
+WARNING: this repo is WIP.
+PLEASE STOP ME IF ANYTHING LIKE THIS ALREADY EXIST: I asked and it seems nothing like this exist yet. The closest I can found is `forward` with TLS support and `grpc` plugins, but please correct me if I am wrong: https://github.com/coredns/coredns/issues/6890
+
+
 This is based on the the [grpc plugin](https://github.com/coredns/coredns/tree/master/plugin/grpc)
 
 ## Syntax of Corefile
