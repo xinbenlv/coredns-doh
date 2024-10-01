@@ -24,3 +24,14 @@ where FROM is the base domain to match for the request to be proxied and TO is t
 
 When received the DNS query it will be proxied to http://192.168.1.1:8053/dns-query
 Following a RFC 8484 request and response.
+
+## TODO
+- [ ] Add a simple resolve handler that always resolve to 0.0.0.0
+- [ ] Dockerize an environment to test the plugin
+- [ ] Saving it as a hello world example for CoreDNS plugins
+- [ ] Make a query to an existing DoH Server and return the result, and resolve
+- [ ] Create a proxy file to parse DoH Server and other configurations
+- [ ] Add tests
+- [ ] Add documentation
+- [ ] Add a simple example of a Corefile to the repository
+- [ ] Publish the plugin to the CoreDNS plugin site
