@@ -1,4 +1,6 @@
-# CoreDNS Plugin DNS over HTTP(S)
+# DEPRECATED CoreDNS Plugin DNS over HTTP(S)
+
+DEPRECATED: We will build based on https://github.com/v-byte-cpu/coredns-https. Please go to https://github.com/xinbenlv/coredns-https (xinbenlv@'s fork) for update
 
 A CoreDNS plugin that allows you to resolve DNS queries over HTTP(S).
 
